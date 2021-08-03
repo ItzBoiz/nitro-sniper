@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "main.py", line 176, in <module>
+    bot.run(token, bot=False)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 718, in run
+    return future.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 697, in runner
+    await self.start(*args, **kwargs)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 660, in start
+    await self.login(*args, bot=bot)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 509, in login
+    await self.http.static_login(token.strip(), bot=bot)
+AttributeError: 'NoneType' object has no attribute 'strip'
