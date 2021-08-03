@@ -1,0 +1,5 @@
+Flask
+colorama
+discord
+discord.py
+httpx
